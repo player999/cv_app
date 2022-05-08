@@ -1,0 +1,43 @@
+{
+	"entries": [
+		{
+			"id": "globallogic",
+			"name": "Globallogic",
+			"start_date": "06.2016",
+			"link": "https://www.globallogic.com/",
+			"type": "work"
+		},
+		{
+			"id": "vit",
+			"name": "VIT company",
+			"start_date": "2011",
+			"end_date": "06.2016",
+			"link": "https://vitcompany.com/",
+			"type": "work"
+		},
+		{
+			"id": "kpi_work",
+			"name": "Part time employment at Kyiv Polytechnic Institute",
+			"start_date": "2013",
+			"end_date": "2015",
+			"link": "http://www.keoa.kpi.ua/wp/en_US/",
+			"type": "work"
+		},
+		{
+			"id": "kpi_phd",
+			"name": "Kyiv Polytechnic Institute. PhD studies",
+			"start_date": "2012",
+			"end_date": "2015",
+			"link": "https://itgip.org/wp-content/uploads/2018/06/aref.pdf",
+			"type": "school"
+		},
+		{
+			"id": "kpi_study",
+			"name": "Kyiv Polytechnic Institute. BSc and MSc",
+			"start_date": "2006",
+			"end_date": "2012",
+			"link": "http://www.keoa.kpi.ua/wp/en_US/",
+			"type": "school"
+		}
+	]
+}

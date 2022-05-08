@@ -1,0 +1,236 @@
+{
+    "quantitive": {
+        "category_dictionary": {
+            "bench": {
+                "name": "Benchmarking"
+            },
+            "languages": {
+                "name": "Languages"
+            }
+        },
+        "skills": {
+            "bench": [
+                {
+                    "name": "Upwork C programming test",
+                    "evaluation": "4.00 out of 5 (top 20%)",
+                    "stars_total": 5,
+                    "stars": 4,
+                    "pic": "upwork.svg"
+                },
+                {
+                    "name": "Brainbench C",
+                    "evaluation": "3.95 points",
+                    "stars_total": 5,
+                    "stars": 3.95,
+                    "pic": "brainbench.png"
+                },
+                {
+                    "name": "Brainbench Linux Administration (General)",
+                    "evaluation": "3.17 points",
+                    "stars_total": 5,
+                    "stars": 3.17,
+                    "pic": "linuxadmin.jpg"
+                }
+            ],
+            "languages": [
+                {
+                    "name": "English",
+                    "evaluation": "Upper intermediate (TOEFL score = 92)",
+                    "pic": "uk_flag.png",
+                    "stars_total": 5,
+                    "stars": 4
+                },
+                {
+                    "name": "Japanese",
+                    "evaluation": "Basic (JLPT level N5)",
+                    "pic": "japan_flag.svg",
+                    "stars_total": 5,
+                    "stars": 1
+                },
+                {
+                    "name": "German",
+                    "evaluation": "Very basic, no certification",
+                    "pic": "germany_flag.png",
+                    "stars_total": 5,
+                    "stars": 1
+                }
+            ]
+        }
+    },
+    "qualitative": {
+        "category_dictionary": {
+            "planguages": {
+                "name": "Programming languages"
+            },
+            "cv": {
+                "name": "Computer vision and pattern recoginition"
+            },
+            "embedded": {
+                "name": "Embedded"
+            },
+            "other": {
+                "name": "Other"
+            }
+        },
+        "skills": {
+            "planguages": [
+                {
+                    "name": "Profound knowledge of C (>8 yrs. of commercial experience)",
+                    "pic": "c_language.png"
+                },
+                {
+                    "name": "Considerable C++ experience",
+                    "pic": "cpp_lang.jpg"
+                },
+                {
+                    "name": "Python scripting",
+                    "pic": "python_lang.svg"
+                },
+                {
+                    "name": "PHP scripting",
+                    "pic": "php_lang.svg"
+                },
+                {
+                    "name": "many others",
+                    "pic": "other_language.png"
+                }
+            ],
+            "cv": [
+                {
+                    "name": "Machine learning algorithms",
+                    "pic": "ai.jpg"
+                },
+                {
+                    "name": "Affine transformations",
+                    "pic": "affine_tfx.png"
+
+                },
+                {
+                    "name": "OpenCV",
+                    "pic": "opencv.png"
+                },
+                {
+                    "name": "OpenCL",
+                    "pic": "opencl.png"
+                },
+                {
+                    "name": "CUDA",
+                    "pic": "cuda.png"
+                },
+                {
+                    "name": "Intel Performance Primitives",
+                    "pic": "ipp.png"
+                },
+                {
+                    "name": "NVIDIA Performance Primitives",
+                    "pic": "cuda.png"
+                },
+                {
+                    "name": "Matlab/Octave",
+                    "pic": "matlab.png"
+                }
+            ],
+            "embedded": [
+                {
+                    "name": "Embedded linux",
+                    "pic": "embedded_linux.jpg"
+                },
+                {
+                    "name": "FreeRTOS",
+                    "pic": "freertos.png"
+                },
+                {
+                    "name": "ThreadX",
+                    "pic": "threadx.jpg"
+                },
+                {
+                    "name": "Understanding of Linux Kernel",
+                    "pic": "tux.svg"
+                },
+                {
+                    "name": "Linux API",
+                    "pic": "tux.svg"
+                },
+                {
+                    "name": "Linux networking",
+                    "pic": "linuxnet.jpg"
+                },
+                {
+                    "name": "Debugging in GDB",
+                    "pic": "gdb.svg"
+                },
+                {
+                    "name": "Buildroot",
+                    "pic": "buildroot.png"
+                },
+                {
+                    "name": "YOCTO project",
+                    "pic": "yocto.svg"
+                },
+                {
+                    "name": "U-boot bootloader",
+                    "pic": "uboot.svg"
+                },
+                {
+                    "name": "POSIX sockets",
+                    "pic": "sockets.jpeg"
+                },
+                {
+                    "name": "POSIX threads",
+                    "pic": "pthreads.jpg"
+                },
+                {
+                    "name": "Make, CMake",
+                    "pic": "cmake.svg"
+                },
+                {
+                    "name": "Experience with Raspberry PI, NVIDIA Jetson etc.",
+                    "pic": "jetson.jpg"
+                },
+                {
+                    "name": "JTAG debugging",
+                    "pic": "segger.jpg"
+                },
+                {
+                    "name": "STM32",
+                    "pic": "STM32.jpg"
+                }
+            ],
+            "other": [
+                {
+                    "name": "GIT",
+                    "pic": "git.svg"
+                },
+                {
+                    "name": "QT (small projects)",
+                    "pic": "qt.svg"
+                },
+                {
+                    "name": "FPGA design",
+                    "pic": "intel-fpga.png"
+                },
+                {
+                    "name": "Verilog HDL",
+                    "pic": "verilog.png"
+                },
+                {
+                    "name": "Chisel",
+                    "pic": "chisel.jpg"
+                },
+                {
+                    "name": "Altera Quartus",
+                    "pic": "quartus.jpg"
+                },
+                {
+                    "name": "Digital Signal Processors",
+                    "pic": "c6000dsp.jpg"
+                },
+                {
+                    "name": "PCB design",
+                    "pic": "pcb.jpg"
+                }
+            ]
+        }
+
+    }
+}
