@@ -1,0 +1,31 @@
+{
+    "phone": {
+        "text": "+380639602296",
+        "pic": "phone.jpg"
+    },
+    "email": {
+        "text": "taras.zakharchenko@gmail.com",
+        "pic": "gmail.png",
+        "link": "mailto:taras.zakharchenko@gmail.com"
+    },
+    "skype": {
+        "text": "taraszahar",
+        "link": "callTo://taraszahar",
+        "pic": "skype.png"
+    },
+    "linkedin": {
+        "text": "ua.linkedin.com/in/ft232bm",
+        "pic": "linkedin.jpg",
+        "link": "https://www.linkedin.com/in/taraszakharchenko"
+    },
+    "location": {
+        "text": "Ukraine, Kyiv",
+        "link": "https://goo.gl/maps/mfoVAkfB2T4H9wsh7",
+        "pic": "map.png"
+    },
+    "github": {
+        "text": "https://github.com/player999",
+        "link": "https://github.com/player999",
+        "pic": "github.jpg"
+    }
+}
