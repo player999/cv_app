@@ -88,11 +88,13 @@
                 },
                 {
                     "name": "PHP scripting",
-                    "pic": "php_lang.svg"
+                    "pic": "php_lang.svg",
+                    "tags": ["hobby"]
                 },
                 {
                     "name": "many others",
-                    "pic": "other_language.png"
+                    "pic": "other_language.png",
+                    "tags": ["hobby"]
                 }
             ],
             "cv": [
@@ -145,7 +147,8 @@
                 },
                 {
                     "name": "Understanding of Linux Kernel",
-                    "pic": "tux.svg"
+                    "pic": "tux.svg",
+                    "tags": ["hobby"]
                 },
                 {
                     "name": "Linux API",
@@ -161,15 +164,18 @@
                 },
                 {
                     "name": "Buildroot",
-                    "pic": "buildroot.png"
+                    "pic": "buildroot.png",
+                    "tags": ["hobby"]
                 },
                 {
                     "name": "YOCTO project",
-                    "pic": "yocto.svg"
+                    "pic": "yocto.svg",
+                    "tags": ["hobby"]
                 },
                 {
                     "name": "U-boot bootloader",
-                    "pic": "uboot.svg"
+                    "pic": "uboot.svg",
+                    "tags": ["hobby"]
                 },
                 {
                     "name": "POSIX sockets",
@@ -189,7 +195,8 @@
                 },
                 {
                     "name": "JTAG debugging",
-                    "pic": "segger.jpg"
+                    "pic": "segger.jpg",
+                    "tags": ["hobby"]
                 },
                 {
                     "name": "STM32",
@@ -215,7 +222,8 @@
                 },
                 {
                     "name": "Chisel",
-                    "pic": "chisel.jpg"
+                    "pic": "chisel.jpg",
+                    "tags": ["hobby"]
                 },
                 {
                     "name": "Altera Quartus",
