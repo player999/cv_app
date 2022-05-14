@@ -24,7 +24,7 @@ const getMainConfig = async (
 };
 
 const Header = (header_config: any) => (
-  <Box minWidth="920px" width="100%">
+  <Box width="100%">
   <AppBar sx={{ boxShadow: 0, padding: 2 }} position="static" >
     <Stack
       direction="row"

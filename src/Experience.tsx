@@ -1,4 +1,4 @@
-import { TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineOppositeContent, TimelineSeparator } from "@mui/lab";
+import { Timeline, TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineOppositeContent, TimelineSeparator } from "@mui/lab";
 import { Card, CardActionArea, CardMedia, FormControlLabel, Stack, Switch, Typography } from "@mui/material";
 import * as React from "react";
 import { FC, FunctionComponent, useState } from "react";
@@ -144,7 +144,7 @@ const ExperienceByType: FunctionComponent<IExpProps> = (props: IExpProps) => {
         }
     }
 
-    return React.createElement("Timeline", {postion: "right", sx: {positionLeft: "left"}}, job_elements);
+    return React.createElement(Timeline, { sx: { width: "100%", positionLeft: "left"}}, job_elements);
 }
 
 

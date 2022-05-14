@@ -1,4 +1,4 @@
-import { Card, CardMedia, Grid, Rating, Stack, Typography } from "@mui/material";
+import { Card, CardMedia, Chip, Grid, Rating, Stack, Typography } from "@mui/material";
 import * as React from "react";
 import { FC, useState } from "react";
 import { AsyncProps, useAsync } from "react-async";
@@ -20,10 +20,18 @@ enum CatType {
     CatQuantitive = "quantitive"
 };
 
+function createChips(tags: Array<string>): JSX.Element {
+    let children: Array<JSX.Element>;
+    children = tags.map((val: string) => {
+        return <Grid item> <Chip label={val} /> </Grid>;
+    });
+    return React.createElement(Grid, {container: true, spacing: 1 }, children);
+}
+
 function createQuantitiveCard(value: any): JSX.Element {
     return (
-        <Grid item xs={4} p={2} >
-            <Card>
+        <Grid item xs={3} p={2} >
+            <Card sx={{"padding": 1}}>
                 {value["pic"] && <CardMedia
                     component="img"
                     height="140"
@@ -32,14 +40,15 @@ function createQuantitiveCard(value: any): JSX.Element {
                 />}
                 <Typography>{value["name"]}</Typography>
                 { value["stars"] && value["stars_total"] && <Rating name="read-only" max={value["stars_total"]} value={value["stars"]} readOnly />}
+                { value["tags"] && (value["tags"].length > 0) && createChips(value["tags"])}
             </Card>
         </Grid>);
 }
 
 function createQualitativeCard(value: any): JSX.Element {
     return (
-        <Grid item xs={4} p={2} >
-            <Card>
+        <Grid item xs={3} p={2} >
+            <Card sx={{"padding": 1}}>
                 {value["pic"] && <CardMedia
                     component="img"
                     height="140"
@@ -47,6 +56,7 @@ function createQualitativeCard(value: any): JSX.Element {
                     sx={{objectFit: "contain"}}
                 />}
                 <Typography>{value["name"]}</Typography>
+                { value["tags"] && (value["tags"].length > 0) && createChips(value["tags"])}
             </Card>
         </Grid>);
 }
